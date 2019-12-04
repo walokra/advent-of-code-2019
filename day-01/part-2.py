@@ -18,7 +18,7 @@ def main ():
     fuel = 0
     for line in lines:
         # print(int(line))
-        fuel += fuel_req(line, fuel)
+        fuel += fuel_req(line, 0)
 
     print(int(fuel))
 
